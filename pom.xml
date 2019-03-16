@@ -27,16 +27,16 @@
     </dependency>
   </dependencies>
   <distributionManagement>
-    <snapshotRepository>
+     <snapshotRepository>
         <id>snapshots</id>
-        <name>ip-172-31-25-46-snapshots</name>
-        <url>http://ec2-13-233-68-105.ap-south-1.compute.amazonaws.com:8081/artifactory/libs-snapshot</url>
+        <name>ip-172-31-87-176-snapshots</name>
+        <url>http://ec2-18-212-185-11.compute-1.amazonaws.com:8081/artifactory/libs-snapshot</url>
     </snapshotRepository>
     <repository>
         <id>central</id>
-        <name>ip-172-31-25-46-releases</name>
-        <url>http://ec2-13-233-68-105.ap-south-1.compute.amazonaws.com:8081/artifactory/libs-release</url>
+        <name>ip-172-31-87-176-releases</name>
+        <url>http://ec2-18-212-185-11.compute-1.amazonaws.com:8081/artifactory/libs-release</url>
     </repository>
+    
 </distributionManagement>
-  
 </project>
