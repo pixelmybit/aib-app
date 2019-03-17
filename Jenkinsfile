@@ -6,7 +6,7 @@ node('maven-label') {
    def mvnHome
    
    stage("Welcome"){
-   func1 "edureka"
+   func1 "DevOps"
    }
    stage('Preparation') { 
       git 'https://github.com/cicd-tools2/aib-app.git'
