@@ -4,10 +4,12 @@ def func1(String name ){
 }
 node('maven-label') { 
    def mvnHome
-   
    stage("Welcome"){
    func1 "DevOps"
    }
+    stage("sayHello"){
+   sayHello "jbvjb"
+}
    stage('Preparation') { 
       git 'https://github.com/cicd-tools2/aib-app.git'
             
