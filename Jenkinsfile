@@ -1,4 +1,4 @@
-
+@Library('pipeline-library-demo')_
 def func1(String name ){
    echo "Hellow $name"
 }
