@@ -1,5 +1,13 @@
+
+def func1(String name ){
+   echo "Hellow $name"
+}
 node('maven-label') { 
    def mvnHome
+   
+   stage("Welcome"){
+   func1 "edureka"
+   }
    stage('Preparation') { 
       git 'https://github.com/cicd-tools2/aib-app.git'
             
