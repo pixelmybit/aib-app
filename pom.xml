@@ -38,6 +38,11 @@
         <name>ip-172-31-41-12-snapshots</name>
         <url>http://ec2-3-18-106-221.us-east-2.compute.amazonaws.com:8081/artifactory/libs-snapshot</url>
     </snapshotRepository>
+	  <repository>
+        <id>central</id>
+        <name>ip-172-31-41-12-releases</name>
+        <url>http://ec2-3-18-106-221.us-east-2.compute.amazonaws.com:8081/artifactory/libs-release</url>
+    </repository>
 </distributionManagement>
   
 </project>
